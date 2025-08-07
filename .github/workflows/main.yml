@@ -3,6 +3,9 @@ name: Android Kernel Driver Builder
 on:
   workflow_dispatch:
     inputs:
+      android_Link:
+        description: 'AndroidLink'
+        required: true
       android_version:
         description: 'Android Version (Kernel) (e.g., 14)'
         required: true
