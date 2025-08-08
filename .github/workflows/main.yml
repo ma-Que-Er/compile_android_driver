@@ -45,6 +45,8 @@ jobs:
         run: |
           cd android-kernel
           ls
+          cd common 
+          ls
           cp -r ../kerneldriver common/drivers
 
       - name: Modify Makefile
