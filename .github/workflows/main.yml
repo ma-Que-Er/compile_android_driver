@@ -44,6 +44,7 @@ jobs:
       - name: Copy kerneldriver
         run: |
           cd android-kernel
+          ls
           cp -r ../kerneldriver common/drivers
 
       - name: Modify Makefile
